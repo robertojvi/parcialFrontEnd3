@@ -106,9 +106,9 @@ const Formulario = () => {
 				</form>
 
 				{error && (
-					<p style={{ color: "red" }}>
-						Por favor chequea que la información sea correcta
-					</p>
+					<h3 style={{ color: "red" }}>
+						Por favor verifica que la información ingresada sea correcta
+					</h3>
 				)}
 
 				{submitted && (
